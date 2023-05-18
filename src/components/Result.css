@@ -1,0 +1,41 @@
+.thank-you h1{
+    margin-top: 2.4rem;
+}
+.thank-you p{
+    width: 27.9rem;
+}
+.thank-you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.selected{
+    width: fit-content;
+    padding: 1rem;
+    height: 3.2rem;
+    background: #262E38;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.8rem;
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #FC7614;
+}
+@media only screen and (min-width: 1440px){
+    .selected{
+        width: 19.3rem;
+        margin-top: 3.2rem;
+    }
+    .thank-you h1{
+        margin-top: 3.2rem;
+    }
+    .thank-you p{
+        width: 32rem;
+    }
+};
